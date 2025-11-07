@@ -1,4 +1,4 @@
-const API_URL = "https://restcountries.com/v3.1/all"
+const API_URL = "https://restcountries.com/v3.1/all?fields=name,region,subregion,population"
 //console.log(API_URL);
 function reqListener() {
 const countriesData = JSON.parse(this.responseText);

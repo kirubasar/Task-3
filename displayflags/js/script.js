@@ -1,4 +1,4 @@
-const API_URL = "https://restcountries.com/v3.1/all"
+const API_URL = "https://restcountries.com/v3.1/all?fields=flags"
 function reqListener() {
 const countriesData = JSON.parse(this.responseText);
 for (let ind in countriesData){
